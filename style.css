@@ -1,0 +1,263 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(52, 49, 49);
+    
+}
+
+#desktop {
+    
+    width: 1440px;
+    height: 929px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/img-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 32px;
+    width: 1216px;
+    height: 408.6px;
+}
+
+.boxleft {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 490px;
+    height: 366px;
+}
+
+.text {
+    
+    width: 490px;
+    height: 156px;
+}
+
+.text p {
+    
+font-family: Space Grotesk;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+text-transform: uppercase;
+background: var(--linear, linear-gradient(90deg, #DEE0FC 0%, #996DFF 51.04%, #BC9FFF 100%));
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: auto;
+
+}
+
+.button {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 16px;
+    width: 384px;
+    height: 178px;
+    padding: 0;
+}
+
+.button p {
+    
+    width: 295px;
+    height: 32px;
+    color: var(--gray-light, #F3F4FE);
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.field {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px 12px;
+    gap: 12px;
+    width: 358px;
+    height: 54px;
+    background: var(--gray-light, #F3F4FE);
+}
+
+
+.button input {
+    
+    width: 328px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: none;  
+}
+
+.button button {
+    padding: 22px 40px;
+    width: 384px;
+    height: 60px;
+    background: var(--purple-normal, #8860E6);
+    cursor: pointer;
+}
+
+
+
+.boxright {
+    
+    width: 694px;
+    height: 408.6px;
+    background: var(--purple-normal, #8860E6);
+    
+}
+
+.ticket {
+    width: 613px;
+    height: 318px;
+    margin: 43px 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgcover {
+    width: 347px;
+    height: 318px;
+    background-image: url(assets/Screen.png);
+    background-size: cover;
+
+}
+
+
+
+
+.infosuser {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 266px;
+    height: 318px;
+    background: var(--gray-light, #F3F4FE);
+    gap: 36px;
+   
+}
+
+.content {
+    
+    width: 234px;
+    height: 180px;
+    margin-left: 16px;
+    
+}
+
+.content1 {
+    
+    width: 234px;
+    height: 73.2px;
+    margin-left: 16px;  
+}
+
+.texts {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 234px;
+    height: 43px;
+}
+
+.tripu {
+    width: 81px;
+    height: 15px;
+    color: var(--purple-normal, #8860E6);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; 
+    letter-spacing: 1.26px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.nome {
+    
+    color: var(--gray-dark, #202024);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; 
+    margin: 0;
+}
+
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+    width: 234px;
+    height: 48px;
+}
+
+.evento {
+    width: 42px;
+    height: 48px;
+    color: var(--gray-dark, #202024);
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.evento1 {
+    width: 104px;
+    height: 48px;
+    color: var(--gray-dark, #202024);
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+.content-img {
+    width: 234px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+
+
+
